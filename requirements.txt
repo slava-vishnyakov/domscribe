@@ -4,3 +4,4 @@ pytest
 black
 isort
 mypy
+typing-extensions>=3.7.4

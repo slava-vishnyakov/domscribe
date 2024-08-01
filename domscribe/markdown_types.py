@@ -1,4 +1,5 @@
-from typing import List, Dict, Union, TypedDict, Optional, Any
+from typing import List, Dict, Union, Optional, Any
+from typing_extensions import TypedDict
 
 class BoldNode(TypedDict):
     type: str
