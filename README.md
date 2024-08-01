@@ -6,20 +6,6 @@
 
 This Python library is a semi-automated port of [dom-to-semantic-markdown](https://github.com/romansky/dom-to-semantic-markdown). It converts HTML to semantic Markdown, preserving the structure and meaning of the original content.
 
-## Why Domscribe?
-
-Domscribe aims to solve several problems associated with traditional HTML-to-Markdown converters:
-
-1. **Semantic preservation**: Most converters lose important semantic information during conversion. Domscribe maintains the semantic structure of the original HTML.
-
-2. **Handling complex structures**: Traditional converters often struggle with nested lists, tables, and other complex HTML structures. Domscribe handles these with ease.
-
-3. **Customizability**: Domscribe offers various options to customize the conversion process according to your needs.
-
-4. **Main content extraction**: It can automatically identify and extract the main content of a web page, ignoring navigation, footers, and other peripheral content.
-
-5. **LLM-friendly output**: The generated Markdown is optimized for further processing by Language Models (LLMs), including special annotations for table columns.
-
 ## Installation
 
 ```
@@ -46,6 +32,20 @@ options = {
 }
 markdown = html_to_markdown(html, options)
 ```
+
+## Why Domscribe?
+
+Domscribe aims to solve several problems associated with traditional HTML-to-Markdown converters:
+
+1. **Semantic preservation**: Most converters lose important semantic information during conversion. Domscribe maintains the semantic structure of the original HTML.
+
+2. **Handling complex structures**: Traditional converters often struggle with nested lists, tables, and other complex HTML structures. Domscribe handles these with ease.
+
+3. **Customizability**: Domscribe offers various options to customize the conversion process according to your needs.
+
+4. **Main content extraction**: It can automatically identify and extract the main content of a web page, ignoring navigation, footers, and other peripheral content.
+
+5. **LLM-friendly output**: The generated Markdown is optimized for further processing by Language Models (LLMs), including special annotations for table columns.
 
 ### Customizable Conversion Options
 
