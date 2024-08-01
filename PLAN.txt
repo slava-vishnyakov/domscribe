@@ -1,0 +1,48 @@
+Steps to Port Node.js Library to Python
+
+1. Set up project structure
+   [x] Create a new Python project directory
+   [x] Set up a virtual environment
+   [x] Create a setup.py file for package management
+
+2. Port core functionality
+   [x] Create Python equivalents for core modules (htmlToMarkdownAST, markdownASTToString, domUtils, urlUtils, astUtils)
+   [x] Adapt TypeScript types to Python type hints
+   [x] Use libraries like beautifulsoup4 for HTML parsing instead of JSDOM
+
+3. Implement main conversion functions
+   [x] Port convertHtmlToMarkdown and convertElementToMarkdown functions
+   [x] Adapt the ConversionOptions to a Python configuration object or dataclass
+
+4. Port utility functions
+   [x] Implement findInMarkdownAST and findAllInMarkdownAST in Python
+   [x] Port other utility functions like refifyUrls, findMainContent, etc.
+
+5. Handle JavaScript-specific features
+   [x] Replace Node.js-specific modules with Python equivalents
+   [x] Adapt async operations to Python's async/await syntax if needed
+
+6. Testing
+   [x] Port existing tests to Python using a testing framework like pytest
+   [x] Ensure all ported functions have equivalent test coverage
+
+7. Documentation
+   [x] Update documentation for Python usage
+   [x] Create Python-specific examples
+
+8. Package management
+   [x] Set up package management using setup.py or poetry
+   [x] Prepare the project for distribution on PyPI
+
+9. Continuous Integration
+   [ ] Set up CI/CD for the Python project (e.g., using GitHub Actions)
+
+10. Performance optimization
+    [ ] Profile the Python code and optimize for performance where necessary
+
+11. Compatibility
+    [x] Ensure the Python library works across different Python versions (e.g., 3.7+)
+
+12. Examples and usage guide
+    [x] Create Python-specific examples demonstrating library usage
+    [x] Update any existing documentation to reflect Python syntax and conventions

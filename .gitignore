@@ -1,0 +1,13 @@
+.aider*
+nodejs
+.env
+venv
+.pytest_cache
+.DS_Store
+.idea
+.vscode
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+__pycache__

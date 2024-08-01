@@ -1,0 +1,6 @@
+beautifulsoup4
+requests
+pytest
+black
+isort
+mypy
